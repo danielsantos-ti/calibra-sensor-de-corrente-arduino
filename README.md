@@ -1,4 +1,4 @@
-# Medição de Corrente com Sensor Analógico
+# Medição de Corrente com Sensor Analógico ACS712 30A
 
 Este projeto utiliza um microcontrolador para medir a corrente elétrica através de um sensor analógico conectado ao pino A5 e controlar um relé conectado ao pino digital 5. A medição de corrente é calculada a partir do valor analógico lido, considerando um fator de sensibilidade e um offset inicial.
 
