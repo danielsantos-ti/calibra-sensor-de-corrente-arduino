@@ -15,7 +15,7 @@ void setup() {
 
   Serial.begin(9600);
 
-  //calibrar o offset (ler quando não há corrente)
+  //calibra o offset (lê quando não há corrente)
   offset = analogRead(sensorPin);
   Serial.print("Offset calibrado: ");
   Serial.println(offset);
